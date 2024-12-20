@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parkir System</title>
+</head>
+<body>
+    <h2>Menghitung Biaya Parkir</h2>
+    <!--Jam Masuk-->
+    <label for="jam_masuk">Jam Masuk</label><br>
+    <input type="number" name="jam_masuk" id="jam_masuk" placeholder="Jam Masuk"><br><br>
+    <!--Jam Keluar-->
+    <label for="jam_keluar">Jam Keluar</label><br>
+    <input type="number" name="jam_keluar" id="jam_keluar" placeholder="Jam Keluar"><br><br>
+    <!--Button hitung-->
+    <button onclick="hitungParkir()">Hitung!</button>
+    <!--Hasil-->
+    <p>Biaya Parkir: Rp <span id="biaya">0</span></p>
+
+    <script src="parkir.js"></script>
+</body>
+</html>

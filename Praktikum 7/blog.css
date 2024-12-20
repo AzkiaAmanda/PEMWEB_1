@@ -1,0 +1,80 @@
+body{
+    background-color: aliceblue;
+}
+header .nav1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    align-items: center;
+    padding: 10px;
+    margin: -10px;
+}
+.img-item {
+    width: 80px;
+}
+ul.menu {
+    display: flex;
+    list-style: none;
+
+    & li {
+        margin-right: 5px;
+
+        & a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    background-color: lemonchiffon;
+    align-items: center;
+    margin: -10px;
+    font-weight: bold;
+
+    & .sosmed a{
+        text-decoration: none;
+        padding-right: 10px;
+    }
+}
+#banner {
+    margin: -10px;
+}
+.card {
+    padding: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+
+    & .section1{
+        margin-right: 5px;
+        & .content1{
+            background-image: url("https://via.placeholder.com/400x300");
+            background-size: cover;
+            width: 200px;
+
+            & span{
+                background-color: lightcyan;
+                color: black;
+                padding: 5px;
+                border-radius: 25px;
+            }
+        }
+    }
+    & .section2{
+        margin-right: 5px;
+        & .content2{
+            background-image: url("https://via.placeholder.com/400x300");
+            background-size: cover;
+            width: 200px;
+
+            & span{
+                background-color: lightcyan;
+                color: black;
+                padding: 5px;
+                border-radius: 25px;
+            }
+        }
+    }
+}
